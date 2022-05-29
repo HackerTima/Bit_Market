@@ -1,0 +1,141 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+h1::before {
+content: url(https://drive.google.com/uc?export=download&id=1tIwBeouKIrMQiCRxdlu4g8MirR0SJpLP
+);
+display: inline-block;
+}
+h1::after {
+  content: url(https://drive.google.com/uc?export=download&id=1kBUjpIfZzbG0jaUhuH-g8HCilJmR4Xxs);  
+display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+.skidka {
+    width: 50px;
+    position: relative;
+    top: 20px;
+}
+.skidka, .post-text {
+   display: inline-block;
+
+}
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+.Poluchi_promokod {
+    position:fixed;
+    background-color:darkslateblue ;
+    right: 0px;
+    top: 230px;
+color: white;
+border-radius: 10px;
+width: 50px;
+height: 280px;
+text-align: center;
+padding: 2%;
+}
+.Poluchi_promokod img {
+    margin-left: 20px;
+}
+.address:before {
+    content:url(https://drive.google.com/uc?export=download&id=1SpoH1Vw9Vr3I8IkkpJRDC7zDfKQxGfo3) ;
+    display: inline-block;
+    width: 40px;
+}
+.tel::before {
+    content: url(https://drive.google.com/uc?export=download&id=1g7N2BVYFIoKOZ9YyqbfLmF-G6ZSlOVLi);
+    display: inline-block;
+    width:30px;
+}
